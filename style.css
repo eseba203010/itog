@@ -1,0 +1,234 @@
+body{
+    margin: 0;
+}
+header{
+    height:  100vh;
+    background-image: url(images/Фон.png);
+    background-size: 100%;
+}
+.header{
+    background-color: #0000004b;
+    width: 100%;
+    height: 100vh;
+
+}
+.ul{
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(231, 239, 235);
+}
+.ul1{
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+#logo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.LO{
+    color: white;
+}
+.GO{
+    color:  #da2346;
+}
+.Services{
+    color: rgb(13, 122, 135);
+}
+.hireus{
+    padding-top: 300px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.best{
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+}
+.provide{
+    color: rgb(153, 155, 156);
+    text-align: center;
+}
+.h{
+    height: 45px;
+    width: 120px;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    font-size: large;
+    border: 2px solid;
+    border-color: rgb(255, 255, 255);
+}
+.maincard{
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card1{
+    width: 50%;
+}
+.card2{
+    width: 50%;
+}
+.hr{
+    width: 42%;
+}
+.txt{
+    font-size: xx-large;
+}
+.h2{
+    background-color: rgb(5, 160, 170);
+    color: rgb(247, 247, 247);
+    border: 0;
+    border-radius: 3px;
+    width: 150px;
+    height: 20px;
+}
+.maincard2{
+    margin: 0;
+    color: rgb(247, 247, 247);
+    
+
+}
+.TitleWithHr{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: rgb(55, 55, 55);
+}
+.HrDefault{
+    margin: 0;
+    width: 400px;
+    border: 1px solid white;
+}
+.HrWhite{
+    margin: 0;
+    border: 2px solid white;
+    width: 400px;
+}
+.card3{
+    background-color: rgb(61, 61, 61);
+    color: rgb(247, 247, 247);
+    height: 450px;
+    width: 33.3%;
+    text-align: center;
+    padding-top: 250px;
+}
+.text{
+    color: rgb(222, 222, 222);
+}
+.h3{
+    background-color: rgb(149, 149, 149);
+    color: rgb(222, 222, 222);;
+    border: 0;
+    border-radius: 2px;
+    width: 120px
+}
+.card4{
+    background-color: rgb(9, 126, 137);
+        color: rgb(247, 247, 247);
+    height: 450px;
+    width: 33.3%;
+    text-align: center;
+    padding-top: 250px;
+}
+.maincards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ul2{
+    margin: 0;
+    list-style: none;   
+}
+.hr9{
+    width: 50px;
+}
+.hr8{
+    width: 38px;
+}
+.footer1{
+    background-color: rgb(71, 71, 71);
+    color: rgb(208, 208, 208);
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+}
+.spisok{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+}
+.ul3{
+    margin: 0;
+    list-style: none;  
+}
+.ul4{
+    margin: 0;
+    list-style: none; 
+}
+.hr7{
+    width: 30px;
+}
+.h10{
+    background-color: rgb(0, 114, 188);
+    height: 40px;
+    width: 80px;
+    border: 0;
+}
+.input{
+    height: 35px;
+}
+.minu{
+    padding-top: 85px;
+}
+.minucards{
+    margin-right: 100px;
+}
+.imgfooter{
+    display: flex;
+    justify-content: space-between;
+}
+@media(max-width:1281px){
+    .imgcard1{
+        width: 650px;
+    }
+    .card2{
+        margin-left: 120px;
+    }
+        .TitleWithHr{
+        font-size: 19px;
+    }
+    .TitleWithHr>p{
+        width: 200px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+@media(max-width:1025px){
+    header{
+      background-repeat: no-repeat;
+    }
+    .imgcard1{
+        width: 530px;
+    }
+    .card2{
+        margin-left: 90px;
+    }
+    .TitleWithHr{
+        font-size: 16px;
+    }
+    .TitleWithHr>p{
+        width: 200px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
