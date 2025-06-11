@@ -233,9 +233,9 @@ header{
     }
    
 }
- @media(max-width:1300px){
+ @media(max-width: 1221px){
         header{
-            height: 30vh;
+            height: 800px;
             background-color: #0000004b;
         }
         .header{
@@ -243,7 +243,7 @@ header{
             height: 30vh;
         }
         .card2{
-            margin-right: 100px;
+            margin-left: 100px;
         }
     }
  @media(max-width:1171px){
