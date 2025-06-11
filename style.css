@@ -271,3 +271,14 @@ header{
             margin-left: 200px;
         }
 }
+@media(max-width:413px{
+    header{
+        width:100%;
+    }
+    .card1{
+        width:100%
+    }
+    .card2{
+        width:0px
+    }
+}
