@@ -236,7 +236,7 @@ header{
  @media(max-width: 1221px){
         header{
             height: 800px;
-            background-color: #0000004b;
+            background-color: #ff0000;
         }
         .header{
             background-color: #0000004b;
